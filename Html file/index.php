@@ -38,7 +38,7 @@ $isLoggedIn = isset($_SESSION['user_id']);
                     <button><a href="../php/logout.php" class="fa-solid-fa-user"><i></i>Logout</a></button>
                 </div>
             <?php else: ?>
-                <button><a href="../Html file/login.php" class="fa-solid-fa-user"><i></i>Login</a></button>
+                <button><a href="" class="fa-solid-fa-user"><i></i>Login</a></button>
             <?php endif; ?>
         </nav>
     </header>
